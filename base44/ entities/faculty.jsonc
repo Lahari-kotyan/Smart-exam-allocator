@@ -1,0 +1,53 @@
+{
+  "name": "Faculty",
+  "type": "object",
+  "properties": {
+    "faculty_id": {
+      "type": "string",
+      "title": "Faculty ID"
+    },
+    "name": {
+      "type": "string",
+      "title": "Name"
+    },
+    "department": {
+      "type": "string",
+      "title": "Department"
+    },
+    "email": {
+      "type": "string",
+      "format": "email",
+      "title": "Email"
+    },
+    "phone": {
+      "type": "string",
+      "title": "Phone"
+    },
+    "designation": {
+      "type": "string",
+      "title": "Designation",
+      "enum": [
+        "Professor",
+        "Associate Professor",
+        "Assistant Professor",
+        "Lecturer"
+      ],
+      "default": "Assistant Professor"
+    },
+    "status": {
+      "type": "string",
+      "enum": [
+        "active",
+        "on_leave",
+        "inactive"
+      ],
+      "default": "active"
+    }
+  },
+  "required": [
+    "faculty_id",
+    "name",
+    "department",
+    "email"
+  ]
+}
