@@ -1,7 +1,7 @@
 # Smart-exam-allocator
 
 
-> An AI-powered exam scheduling and classroom allocation system that automates timetable generation while eliminating conflicts in faculty, classrooms and student examinations.
+ An AI-powered exam scheduling and classroom allocation system that automates timetable generation while eliminating conflicts in faculty, classrooms and student examinations.
 
 
 # 📌 Problem Statement
@@ -48,16 +48,7 @@ This significantly reduces manual effort while improving scheduling accuracy.
 - Student Login
 - Role-based Authentication
 
----
 
-## 🏫 Department Management
-
-- Add Department
-- Update Department
-- Delete Department
-- View Departments
-
----
 
 ## 👨‍🏫 Faculty Management
 
