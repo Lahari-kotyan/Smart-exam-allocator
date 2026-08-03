@@ -45,7 +45,6 @@ This significantly reduces manual effort while improving scheduling accuracy.
 
 - Admin Login
 - Faculty Login
-- Student Login
 - Role-based Authentication
 
 
