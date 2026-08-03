@@ -1,0 +1,53 @@
+{
+  "name": "FacultyAvailability",
+  "type": "object",
+  "properties": {
+    "faculty_id": {
+      "type": "string",
+      "title": "Faculty ID Reference"
+    },
+    "faculty_name": {
+      "type": "string",
+      "title": "Faculty Name"
+    },
+    "date": {
+      "type": "string",
+      "format": "date",
+      "title": "Date"
+    },
+    "time_slot": {
+      "type": "string",
+      "title": "Time Slot",
+      "enum": [
+        "Morning (09:00-12:00)",
+        "Afternoon (12:00-15:00)",
+        "Evening (15:00-18:00)",
+        "Full Day"
+      ]
+    },
+    "availability": {
+      "type": "string",
+      "enum": [
+        "available",
+        "unavailable",
+        "on_leave",
+        "has_class"
+      ],
+      "default": "available"
+    },
+    "leave_reason": {
+      "type": "string",
+      "title": "Leave Reason"
+    },
+    "class_details": {
+      "type": "string",
+      "title": "Existing Class Details"
+    }
+  },
+  "required": [
+    "faculty_id",
+    "date",
+    "time_slot",
+    "availability"
+  ]
+}
